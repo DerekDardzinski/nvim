@@ -1,5 +1,4 @@
 coc-explorer
-coc-extensions.txt
 coc-json
 coc-python
 coc-sh
