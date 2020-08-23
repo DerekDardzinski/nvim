@@ -40,4 +40,5 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
-let g:python3_host_prog = expand("/home/derek/.local/miniconda3/envs/nvim/bin/python")
+let g:python3_host_prog = expand("/global/homes/d/ddardzin/.local/miniconda3/envs/nvim/bin/python")
+let g:coc_node_path = expand("/global/homes/d/ddardzin/.local/miniconda3/bin/node")
