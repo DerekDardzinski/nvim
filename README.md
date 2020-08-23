@@ -4,4 +4,17 @@
 
 `:CocCommand coc-python coc-json coc-sh coc-explorer coc-vimlsp coc-vimtex coc-snippets`
 
-### Important steps
+### Dependencies
+
+* fzf
+* ripgrep
+* universal-ctags
+* ctags
+* silversurfer-ag
+* fd-find
+* ranger
+* node
+* python
+    * pynvim
+    * jedi
+
