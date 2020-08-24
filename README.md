@@ -7,14 +7,36 @@
 ### Dependencies
 
 * fzf
+```bash 
+conda install -c conda-forge fzf
+```
+
 * ripgrep
+```bash 
+conda install -c conda-forge ripgrep
+```
 * universal-ctags
-* ctags
-* silversurfer-ag
+```bash 
+conda install -c conda-forge ctags
+```
+* silversearcher-ag
+```bash 
+conda install -c conda-forge the_silver_searcher
+```
 * fd-find
+```bash 
+conda install -c conda-forge fd-find
+```
 * ranger
+```bash
+pip install ranger-fm
+```
 * node
+```bash 
+conda install -c conda-forge nodejs
+```
 * python
     * pynvim
     * jedi
+    * ueberzug
 
