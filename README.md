@@ -1,8 +1,10 @@
 # Neovim Config
 
-### Run this command to install all the coc-extensions
+### Run this command inside a neovim buffer to install all the coc-extensions
 
-`:CocCommand coc-python coc-json coc-sh coc-explorer coc-vimlsp coc-vimtex coc-snippets`
+```bash
+:CocCommand coc-python coc-json coc-sh coc-explorer coc-vimlsp coc-vimtex coc-snippets
+```
 
 ### Dependencies
 
@@ -39,4 +41,15 @@ conda install -c conda-forge nodejs
     * pynvim
     * jedi
     * ueberzug
+```bash 
+pip install pynvim neovim-remote jedi ueberzug
+```
 
+### Set path to python environment and nodejs
+
+```vim
+let g:python3_host_prog = expand("<PATH TO PYTHON ENVIRONMENT>")
+```
+```vim
+let g:coc_node_path = expand("<PATH TO NODEJS ENVIRONMENT>")
+```

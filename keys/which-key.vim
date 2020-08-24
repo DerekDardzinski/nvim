@@ -82,6 +82,7 @@ let g:which_key_map.x = {
         \ 'name' : '+exicute',
         \ 'p' : [':w|split|terminal python3 %', 'run python'] ,
         \ 'b' : [':w<Bar>split<Bar>terminal bash %<CR>', 'run bash'] ,
+        \ 'm' : [':MarkdownPreview', 'markdown preview'] ,
     \}
 
 let g:which_key_map.c = {

@@ -50,4 +50,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Tab bar
     Plug 'majutsushi/tagbar'
     
+    " Markdown preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+    " Vim Surround
+    Plug 'tpope/vim-surround'
+    
 call plug#end()
